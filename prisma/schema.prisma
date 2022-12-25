@@ -32,5 +32,6 @@ model Orden {
   fecha  String
   nombre String
   pedido Json
+  estado Boolean @default(false)
 }
 
