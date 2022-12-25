@@ -16,7 +16,7 @@ const prisma = new PrismaClient()
         fecha
       }
     })
-  return   res.json(orden)
+  res.json(orden)
   }
 
 
